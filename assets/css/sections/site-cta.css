@@ -1,0 +1,13 @@
+
+.cta{
+    gap: var(--space-2);
+}
+@media(min-width: 768px){
+    .cta{
+        max-width: 40%;
+        text-align: center;
+        gap: var(--space-5);
+        padding-top: var(--space-5);
+        padding-bottom: var(--space-5);
+    }
+}

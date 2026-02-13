@@ -1,0 +1,25 @@
+
+.clients{
+    text-align: center;
+    gap: var(--space-5);
+}
+.clients-header h2{
+    margin-bottom: var(--space-2);
+}
+.logos-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin: 0 auto;
+    justify-content: center;
+}
+/* DESKTOP */
+@media(min-width: 768px){
+    .clients{
+        padding: var(--space-5) 0;
+    }
+    .logos-list{
+        justify-content: space-between;
+        margin: 0;
+    }
+}

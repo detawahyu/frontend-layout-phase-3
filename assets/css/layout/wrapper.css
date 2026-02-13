@@ -1,0 +1,5 @@
+.wrapper {
+    width: var(--wrapper-width);
+    margin: var(--wrapper-margin);
+    padding: var(--space-3) var(--space-2);
+  }

@@ -1,0 +1,26 @@
+.site-header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--space-2);
+    align-items: center;
+    padding-top: var(--space-4);
+}
+
+@media(max-width: 768px){
+    .nav-list{
+        display: none;
+    }
+}
+
+/* DESKTOP */
+@media(min-width: 768px){
+    .site-header{
+        flex-direction: row;
+    }
+    .nav-list{
+        display: flex;
+        gap: var(--space-5);
+    }
+}

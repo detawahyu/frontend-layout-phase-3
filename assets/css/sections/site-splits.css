@@ -1,0 +1,33 @@
+
+.split-img{
+    margin: 0 auto;
+}
+.split-content{
+    gap: var(--space-3);
+    padding-top: var(--space-3);
+}
+.btn-split{
+    width: fit-content;
+    margin: 0 auto;
+}
+@media(min-width: 768px){
+    .split{
+        display: flex;
+        flex-direction: row;
+    }
+    .split-img{
+        flex: 40;
+    }
+    .split-content{
+        flex: 60;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: var(--space-4);
+        justify-content: center;
+    }
+    .btn-split{
+        width: fit-content;
+        margin: 0;
+    }
+}

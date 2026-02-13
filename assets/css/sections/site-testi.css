@@ -1,0 +1,32 @@
+
+.testi{
+    justify-content: space-between;
+    gap: var(--space-3);
+    align-items: center;
+}
+.testi-img{
+    height: auto;
+}
+.testi-content{
+    gap: var(--space-3);
+}
+.author h4{
+    color: var(--clr-primary);
+    margin-bottom: var(--space-2);
+}
+
+/* DESKTOP */
+
+@media(min-width: 768px){
+    .testi{
+        flex-direction: row;
+        gap: var(--space-4);
+        padding: var(--space-5) 0;
+    }
+    .testi-visual{
+        flex: 30;
+    }
+    .testi-content{
+        flex: 70;
+    }
+}

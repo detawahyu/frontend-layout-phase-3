@@ -1,0 +1,6 @@
+
+
+.nav-list li a:hover{
+    border-bottom: 5px solid var(--clr-primary);
+    padding-bottom: 10px;
+}

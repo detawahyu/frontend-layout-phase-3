@@ -1,0 +1,36 @@
+
+.features-header{
+    max-width: 35rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.feature-content{
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+}
+.feature{
+    gap: var(--space-2);
+    margin: 0 auto;
+    text-align: center;
+    padding: var(--space-5) 0;
+    border-bottom: 2px solid var(--clr-primary-light);
+}
+.feature-icon{
+    max-width: 3.5rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* DESKTOP */
+@media(min-width: 768px){
+    .feature{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        max-width: 15rem;
+        gap: var(--space-3);
+        text-align: center;
+        margin: 0;
+    }
+}

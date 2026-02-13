@@ -1,0 +1,12 @@
+.header-logo{
+    width: 154px;
+    height: 24px;
+}
+.nav-list{
+    gap: var(--space-6);
+    max-width: fit-content;
+}
+.auth{
+    display: flex;
+    gap: var(--space-6);
+}
