@@ -5,6 +5,7 @@
     align-items: center;
 }
 .testi-img{
+    width: 100px;
     height: auto;
 }
 .testi-content{
@@ -14,7 +15,14 @@
     color: var(--clr-primary);
     margin-bottom: var(--space-2);
 }
-
+.testi-logo{
+    border: 1px solid red;
+}
+.logo-testi-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /* DESKTOP */
 
 @media(min-width: 768px){
