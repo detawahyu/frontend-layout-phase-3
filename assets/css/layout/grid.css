@@ -1,5 +1,22 @@
-.grid-auto-sm{
+.gtc-1-sm{
+    display: grid;
+    grid-template-columns: 1fr;      
+    gap: var(--space-2);
+}
+.gtc-1{
+    display: grid;
+    grid-template-columns: 1fr;      
+    gap: var(--space-3);
+}
+
+.grid-auto-icon{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: var(--space-3);
+}
+
+.grid-auto-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));   
     gap: var(--space-3);
 }
