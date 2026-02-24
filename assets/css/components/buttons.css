@@ -20,7 +20,7 @@
     font-weight: var(--fw-bold);
     display: inline-flex;
     align-self: flex-start;
-    justify-self: start;
+    justify-self: center;
 }
 
 .btn-secondary:hover{

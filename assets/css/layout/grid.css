@@ -5,7 +5,7 @@
 }
 .gtc-1{
     display: grid;
-    grid-template-columns: 1fr;      
+    grid-template-columns: 1fr; 
     gap: var(--space-3);
 }
 
@@ -18,5 +18,11 @@
 .grid-auto-cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));   
+    gap: var(--space-3);
+}
+
+.grid-auto-cards-metric{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);   
     gap: var(--space-3);
 }

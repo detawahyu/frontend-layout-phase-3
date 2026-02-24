@@ -5,27 +5,24 @@
     align-items: center;
 }
 .testi-img{
+    max-width: 150px;
     height: auto;
+    margin: 0 auto;
 }
 .testi-content{
     gap: var(--space-3);
 }
-.author h4{
+.author h3{
     color: var(--clr-primary);
     margin-bottom: var(--space-2);
 }
 .testi-logo{
     border: 1px solid red;
 }
-.logo-testi-list{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 /* DESKTOP */
 
-@media(min-width: 768px){
+/* @media(min-width: 768px){
     .testi{
         flex-direction: row;
         gap: var(--space-4);
@@ -37,4 +34,4 @@
     .testi-content{
         flex: 70;
     }
-}
+} */
