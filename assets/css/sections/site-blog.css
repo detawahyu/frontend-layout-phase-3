@@ -1,6 +1,3 @@
-
-.blog{
-}
 .blog-header{
     grid-column: 1 / -1;
     text-align: center;
@@ -13,11 +10,13 @@
 }
 
 .blog-list{
-    gap:var(--space-3);
+    gap:var(--space-6);
     padding-top: var(--space-3);
+    place-items: center;
 }
 .blog-article{
     border-radius: 5px;
+    max-width: 280px;
 }
 .blog-img{
     width: 100%;
@@ -35,8 +34,15 @@
     position: relative;
     box-shadow: -1px 10px 10px rgba(0, 0, 0, 0.15);
 }
+
 @media(min-width: 768px){
+    .grid-auto-cards{
+        grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    }
+    .blog-article{
+       max-width: 100%;
+    }
     .blog-list{
-        flex-direction: row;
+        gap:var(--space-3);
     }
 }
